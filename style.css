@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.common-btn {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.common-btn a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container ul li a {
+    color: #575757;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+.hero{
+    height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.45)),
+        url("./images/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    color: white;
+    width: 650px;
+    margin-bottom: 40px;
+}
+
+.hero-reg{
+    margin-top: 280px;
+    font-size: 24px;
+}
+
+
+.card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
