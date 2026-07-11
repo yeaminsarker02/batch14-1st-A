@@ -152,10 +152,6 @@ ul li a {
     justify-content: space-between;
 }
 
-
-.price-container{
-    max-width: 1100px;
-}
 .price{
     margin-top: 150px;
 }
@@ -248,5 +244,40 @@ color: white;
 }
 
 .pro button{
-    color:rgb(184, 184, 184);
+    color:white;
+}
+
+
+.faq{
+    margin: 100px auto;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.faq > p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.faq-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.faq-card h3{
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #111827;
+}
+
+.faq-card p{
+    color: #555;
+    line-height: 1.6;
 }
