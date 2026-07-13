@@ -1,0 +1,1 @@
+Design a clean and modern FAQ (Frequently Asked Questions) section for a developer conference website.
