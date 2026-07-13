@@ -46,10 +46,6 @@ nav {
     padding: 20px 0;
 }
 
-.common-btn a{
-    color: white;
-}
-
 .nav-manu {
     list-style: none;
     display: flex;
@@ -62,6 +58,11 @@ ul li a {
     text-decoration: none;
 }
 
+.hero h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
 .hero {
     height: 600px;
 
@@ -71,6 +72,9 @@ ul li a {
 
     background-size: cover;
     background-position: center;
+}
+
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +211,7 @@ hr {
 }
 
 .price-list {
-    margin: 25px 0;
+    margin: 25 0;
     padding-left: 20px;
 }
 
@@ -215,7 +219,7 @@ hr {
     margin-bottom: 15px;
 }
 
-.price-list li::marker {
+.price-list li::marker{
     color: #1D4ED8;
 }
 
@@ -303,7 +307,7 @@ hr {
     align-items: center;
 }
 
-.social-icon img {
+.social-icon img{
     width: 28px;
     height: 28px;
 
